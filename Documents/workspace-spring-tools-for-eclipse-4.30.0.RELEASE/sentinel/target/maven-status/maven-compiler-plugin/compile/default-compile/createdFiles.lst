@@ -1,0 +1,5 @@
+com\sentinel\api\models\User.class
+com\sentinel\api\RestClient.class
+com\sentinel\ui\pages\BasePage.class
+com\sentinel\ui\pages\ContactsPage.class
+com\sentinel\ui\pages\DashboardPage.class

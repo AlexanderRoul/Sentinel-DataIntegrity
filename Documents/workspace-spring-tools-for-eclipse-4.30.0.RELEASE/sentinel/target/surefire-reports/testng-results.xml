@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-21T19:05:51 IST" name="Sentinel Suite" finished-at="2025-09-21T19:05:56 IST" duration-ms="5850">
+    <groups>
+    </groups>
+    <test started-at="2025-09-21T19:05:51 IST" name="API and UI Tests" finished-at="2025-09-21T19:05:56 IST" duration-ms="5850">
+      <class name="com.sentinel.tests.ApiCrudTests">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sentinel.tests.ApiCrudTests@65f8f5ae]" started-at="2025-09-21T19:05:51 IST" name="init" finished-at="2025-09-21T19:05:51 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testCreateReadUpdateDeleteUser()[pri:0, instance:com.sentinel.tests.ApiCrudTests@65f8f5ae]" started-at="2025-09-21T19:05:51 IST" name="testCreateReadUpdateDeleteUser" finished-at="2025-09-21T19:05:56 IST" duration-ms="4663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateReadUpdateDeleteUser -->
+      </class> <!-- com.sentinel.tests.ApiCrudTests -->
+      <class name="com.sentinel.tests.UiDataValidationTest">
+        <test-method is-config="true" signature="setupApiClient()[pri:0, instance:com.sentinel.tests.UiDataValidationTest@5e7cd6cc]" started-at="2025-09-21T19:05:56 IST" name="setupApiClient" finished-at="2025-09-21T19:05:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupApiClient -->
+        <test-method signature="endToEndDataIntegrity()[pri:0, instance:com.sentinel.tests.UiDataValidationTest@5e7cd6cc]" started-at="2025-09-21T19:05:56 IST" name="endToEndDataIntegrity" finished-at="2025-09-21T19:05:56 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndDataIntegrity -->
+      </class> <!-- com.sentinel.tests.UiDataValidationTest -->
+    </test> <!-- API and UI Tests -->
+  </suite> <!-- Sentinel Suite -->
+</testng-results>
